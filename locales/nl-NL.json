@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Naam"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Opmerkingen",
+    "Company": "Bedrijf",
+    "Images": "Afbeeldingen",
+    "Name": "Naam",
+    "Opportunity": "Kans",
+    "Person": "Persoon",
+    "Record comment": "Recordopmerking",
+    "Text": "Tekst"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Een opmerking die een lid van de werkruimte bij een record heeft geplaatst"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Recordopmerkingen"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Recordopmerking"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Opmerkingen"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Opmerkingen"
+  }
+}

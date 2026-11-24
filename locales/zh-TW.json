@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "名稱"
+  },
+  "fieldMetadata.label": {
+    "Comments": "留言",
+    "Company": "公司",
+    "Images": "圖片",
+    "Name": "名稱",
+    "Opportunity": "商機",
+    "Person": "人員",
+    "Record comment": "記錄留言",
+    "Text": "文字"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "工作區成員在記錄上留下的留言"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "記錄留言"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "記錄留言"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "留言"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "留言"
+  }
+}

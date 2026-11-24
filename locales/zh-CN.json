@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "名称"
+  },
+  "fieldMetadata.label": {
+    "Comments": "评论",
+    "Company": "公司",
+    "Images": "图片",
+    "Name": "名称",
+    "Opportunity": "商机",
+    "Person": "人员",
+    "Record comment": "记录评论",
+    "Text": "文本"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "工作区成员在记录上留下的评论"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "记录评论"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "记录评论"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "评论"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "评论"
+  }
+}

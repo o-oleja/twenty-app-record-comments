@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Nomi"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Izohlar",
+    "Company": "Kompaniya",
+    "Images": "Rasmlar",
+    "Name": "Nomi",
+    "Opportunity": "Imkoniyat",
+    "Person": "Shaxs",
+    "Record comment": "Yozuv izohi",
+    "Text": "Matn"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Ish maydoni a’zosi yozuvga qoldirgan izoh"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Yozuv izohlari"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Yozuv izohi"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Izohlar"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Izohlar"
+  }
+}

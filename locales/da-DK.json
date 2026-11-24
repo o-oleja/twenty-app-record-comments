@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Navn"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Kommentarer",
+    "Company": "Virksomhed",
+    "Images": "Billeder",
+    "Name": "Navn",
+    "Opportunity": "Mulighed",
+    "Person": "Person",
+    "Record comment": "Postkommentar",
+    "Text": "Tekst"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "En kommentar, som et medlem af arbejdsområdet har skrevet på en post"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Postkommentarer"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Postkommentar"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Kommentarer"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Kommentarer"
+  }
+}

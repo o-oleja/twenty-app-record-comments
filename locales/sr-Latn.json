@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Naziv"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Komentari",
+    "Company": "Kompanija",
+    "Images": "Slike",
+    "Name": "Naziv",
+    "Opportunity": "Prilika",
+    "Person": "Osoba",
+    "Record comment": "Komentar zapisa",
+    "Text": "Tekst"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Komentar koji je član radnog prostora ostavio na zapisu"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Komentari zapisa"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Komentar zapisa"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Komentari"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Komentari"
+  }
+}

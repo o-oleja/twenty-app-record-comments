@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Név"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Megjegyzések",
+    "Company": "Cég",
+    "Images": "Képek",
+    "Name": "Név",
+    "Opportunity": "Lehetőség",
+    "Person": "Személy",
+    "Record comment": "Rekordmegjegyzés",
+    "Text": "Szöveg"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Egy munkaterület-tag által egy rekordhoz írt megjegyzés"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Rekordmegjegyzések"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Rekordmegjegyzés"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Megjegyzések"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Megjegyzések"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Անուն"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Մեկնաբանություններ",
+    "Company": "Ընկերություն",
+    "Images": "Պատկերներ",
+    "Name": "Անուն",
+    "Opportunity": "Հնարավորություն",
+    "Person": "Անձ",
+    "Record comment": "Գրառման մեկնաբանություն",
+    "Text": "Տեքստ"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Աշխատանքային տարածքի անդամի թողած մեկնաբանություն գրառման վրա"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Գրառումների մեկնաբանություններ"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Գրառման մեկնաբանություն"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Մեկնաբանություններ"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Մեկնաբանություններ"
+  }
+}

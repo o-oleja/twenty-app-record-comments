@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Nume"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Comentarii",
+    "Company": "Companie",
+    "Images": "Imagini",
+    "Name": "Nume",
+    "Opportunity": "Oportunitate",
+    "Person": "Persoană",
+    "Record comment": "Comentariu la înregistrare",
+    "Text": "Text"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Un comentariu lăsat la o înregistrare de un membru al spațiului de lucru"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Comentarii la înregistrări"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Comentariu la înregistrare"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Comentarii"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Comentarii"
+  }
+}

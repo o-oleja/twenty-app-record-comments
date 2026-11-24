@@ -1,1 +1,30 @@
-{}
+{
+  "fieldMetadata.description": {
+    "Name": "Name"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Comments",
+    "Company": "Company",
+    "Images": "Images",
+    "Name": "Name",
+    "Opportunity": "Opportunity",
+    "Person": "Person",
+    "Record comment": "Record comment",
+    "Text": "Text"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "A comment left by a workspace member on a record"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Record comments"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Record comment"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Comments"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Comments"
+  }
+}

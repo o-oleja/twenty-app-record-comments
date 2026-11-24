@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "이름"
+  },
+  "fieldMetadata.label": {
+    "Comments": "댓글",
+    "Company": "회사",
+    "Images": "이미지",
+    "Name": "이름",
+    "Opportunity": "영업 기회",
+    "Person": "사람",
+    "Record comment": "레코드 댓글",
+    "Text": "텍스트"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "워크스페이스 멤버가 레코드에 남긴 댓글"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "레코드 댓글"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "레코드 댓글"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "댓글"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "댓글"
+  }
+}

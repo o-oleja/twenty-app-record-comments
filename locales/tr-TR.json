@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Ad"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Yorumlar",
+    "Company": "Şirket",
+    "Images": "Görseller",
+    "Name": "Ad",
+    "Opportunity": "Fırsat",
+    "Person": "Kişi",
+    "Record comment": "Kayıt yorumu",
+    "Text": "Metin"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Bir çalışma alanı üyesinin bir kayda bıraktığı yorum"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Kayıt yorumları"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Kayıt yorumu"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Yorumlar"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Yorumlar"
+  }
+}

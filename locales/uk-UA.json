@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Назва"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Коментарі",
+    "Company": "Компанія",
+    "Images": "Зображення",
+    "Name": "Назва",
+    "Opportunity": "Можливість",
+    "Person": "Особа",
+    "Record comment": "Коментар до запису",
+    "Text": "Текст"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Коментар учасника робочого простору до запису"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Коментарі до записів"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Коментар до запису"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Коментарі"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Коментарі"
+  }
+}

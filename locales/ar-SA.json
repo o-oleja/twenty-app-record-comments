@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "الاسم"
+  },
+  "fieldMetadata.label": {
+    "Comments": "التعليقات",
+    "Company": "الشركة",
+    "Images": "الصور",
+    "Name": "الاسم",
+    "Opportunity": "الفرصة",
+    "Person": "الشخص",
+    "Record comment": "تعليق على سجل",
+    "Text": "النص"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "تعليق تركه عضو في مساحة العمل على سجل"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "تعليقات على السجلات"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "تعليق على سجل"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "التعليقات"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "التعليقات"
+  }
+}

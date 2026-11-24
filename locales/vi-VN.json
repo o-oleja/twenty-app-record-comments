@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Tên"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Bình luận",
+    "Company": "Công ty",
+    "Images": "Hình ảnh",
+    "Name": "Tên",
+    "Opportunity": "Cơ hội",
+    "Person": "Người",
+    "Record comment": "Bình luận bản ghi",
+    "Text": "Nội dung"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Bình luận của một thành viên không gian làm việc trên một bản ghi"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Bình luận bản ghi"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Bình luận bản ghi"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Bình luận"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Bình luận"
+  }
+}

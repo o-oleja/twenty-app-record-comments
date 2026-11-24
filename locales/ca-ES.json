@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Nom"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Comentaris",
+    "Company": "Empresa",
+    "Images": "Imatges",
+    "Name": "Nom",
+    "Opportunity": "Oportunitat",
+    "Person": "Persona",
+    "Record comment": "Comentari de registre",
+    "Text": "Text"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Un comentari deixat per un membre de l'espai de treball en un registre"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Comentaris de registre"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Comentari de registre"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Comentaris"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Comentaris"
+  }
+}

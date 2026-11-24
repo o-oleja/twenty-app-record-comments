@@ -1,65 +1,36 @@
-// UI strings. English is the fallback; add a language by adding an entry.
-const en = {
-  newComment: 'New comment (Ctrl+Enter to send)',
-  placeholder: 'Write a comment…',
-  attachImage: 'Attach image',
-  send: 'Send',
-  loading: 'Loading…',
-  empty: 'No comments yet.',
-  noName: 'Unknown',
-  delete: 'Delete',
-  deleteComment: 'Delete comment',
-  deleteTitle: 'Delete this comment?',
-  original: 'Original',
-  close: 'Close',
-  closeImage: 'Close image',
-  clickToClose: 'Click to close',
-  openRecord: 'Open a record to see its comments.',
-  unsupportedRecord: 'Comments are not available for this record type.',
-  onlyImages: 'Only images can be attached',
-  imageTooBig: 'Images over 10 MB were not attached',
-  uploadUnavailable: 'Image upload is not available yet, please try again',
-  openImage: (name: string) => `Open image ${name}`,
-  removeFile: (name: string) => `Remove ${name}`,
-  imagesCount: (count: number) => `Images: ${count}`,
-  uploadFailed: (name: string, reason: string) => `image "${name}" was not uploaded (${reason})`,
-  sendFailed: (reason: string) => `Could not send: ${reason}`,
-  deleteFailed: (reason: string) => `Could not delete: ${reason}`,
-  loadFailed: (reason: string) => `Could not load comments: ${reason}`,
+import { UI_STRINGS } from 'src/utils/strings.generated';
+
+// Translations live in translations/translations.mjs; run `yarn translations` after editing.
+type Templates = Record<keyof (typeof UI_STRINGS)['en'], string>;
+
+const fill = (template: string, values: Record<string, string | number>) =>
+  template.replace(/\{(\w+)\}/g, (match, name: string) =>
+    name in values ? String(values[name]) : match,
+  );
+
+const LOCALE_TEMPLATES = UI_STRINGS as unknown as Record<string, Templates>;
+
+// Exact locale first ("pt-BR", "sr-Latn"), then any locale of the same language, then English.
+const pickTemplates = (locale: string | null | undefined): Templates => {
+  if (!locale) return LOCALE_TEMPLATES.en;
+  if (LOCALE_TEMPLATES[locale]) return LOCALE_TEMPLATES[locale];
+  const language = locale.split('-')[0].toLowerCase();
+  const sameLanguage = Object.keys(LOCALE_TEMPLATES).find(
+    (candidate) => candidate.split('-')[0].toLowerCase() === language,
+  );
+  return sameLanguage ? LOCALE_TEMPLATES[sameLanguage] : LOCALE_TEMPLATES.en;
 };
 
-type Strings = typeof en;
-
-const ru: Strings = {
-  newComment: 'Новый комментарий (Ctrl+Enter — отправить)',
-  placeholder: 'Напишите комментарий…',
-  attachImage: 'Прикрепить картинку',
-  send: 'Отправить',
-  loading: 'Загрузка…',
-  empty: 'Комментариев пока нет.',
-  noName: 'Без имени',
-  delete: 'Удалить',
-  deleteComment: 'Удалить комментарий',
-  deleteTitle: 'Удалить комментарий?',
-  original: 'Оригинал',
-  close: 'Закрыть',
-  closeImage: 'Закрыть картинку',
-  clickToClose: 'Нажмите, чтобы закрыть',
-  openRecord: 'Откройте запись, чтобы увидеть комментарии.',
-  unsupportedRecord: 'Для этого типа записей комментарии недоступны.',
-  onlyImages: 'Можно прикреплять только картинки',
-  imageTooBig: 'Картинки больше 10 МБ не прикреплены',
-  uploadUnavailable: 'Загрузка картинок пока недоступна, попробуйте ещё раз',
-  openImage: (name) => `Открыть картинку ${name}`,
-  removeFile: (name) => `Убрать ${name}`,
-  imagesCount: (count) => `Картинок: ${count}`,
-  uploadFailed: (name, reason) => `картинка «${name}» не загрузилась (${reason})`,
-  sendFailed: (reason) => `Не удалось отправить: ${reason}`,
-  deleteFailed: (reason) => `Не удалось удалить: ${reason}`,
-  loadFailed: (reason) => `Не удалось загрузить комментарии: ${reason}`,
+export const getStrings = (locale: string | null | undefined) => {
+  const s = pickTemplates(locale);
+  return {
+    ...s,
+    openImage: (name: string) => fill(s.openImage, { name }),
+    removeFile: (name: string) => fill(s.removeFile, { name }),
+    imagesCount: (count: number) => fill(s.imagesCount, { count }),
+    uploadFailed: (name: string, reason: string) => fill(s.uploadFailed, { name, reason }),
+    sendFailed: (reason: string) => fill(s.sendFailed, { reason }),
+    deleteFailed: (reason: string) => fill(s.deleteFailed, { reason }),
+    loadFailed: (reason: string) => fill(s.loadFailed, { reason }),
+  };
 };
-
-const STRINGS: Record<string, Strings> = { en, ru };
-
-export const getStrings = (locale: string | null | undefined): Strings =>
-  STRINGS[(locale ?? 'en').slice(0, 2).toLowerCase()] ?? en;

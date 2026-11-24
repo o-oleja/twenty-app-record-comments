@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "نام"
+  },
+  "fieldMetadata.label": {
+    "Comments": "نظرها",
+    "Company": "شرکت",
+    "Images": "تصاویر",
+    "Name": "نام",
+    "Opportunity": "فرصت",
+    "Person": "شخص",
+    "Record comment": "نظر رکورد",
+    "Text": "متن"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "نظری که یکی از اعضای فضای کاری روی یک رکورد گذاشته است"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "نظرهای رکورد"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "نظر رکورد"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "نظرها"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "نظرها"
+  }
+}

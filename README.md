@@ -9,7 +9,7 @@ A comment feed for [Twenty CRM](https://twenty.com) records. It adds a **Comment
 - **Image attachments.** Attach one or more images (up to 10 per comment, 10 MB each). They are stored as regular attachments of the record, so they also appear in its **Files** tab.
 - **Thumbnails and preview.** Images show as thumbnails. Click one to expand it inside the feed; close it with the X button, a click on the image or Escape. **Original** opens the full-size file in a new tab.
 - **Live feed.** New comments from teammates appear within 15 seconds. `Ctrl+Enter` sends.
-- **English and Russian** interface, picked from the user's language.
+- **All 33 Twenty languages.** The tab, object and field names and the whole comment UI follow each user's language in Twenty.
 
 ## How it works
 
@@ -18,6 +18,17 @@ The app adds one object, `recordComment`, with a `text` field and relations to `
 An image is a standard `attachment` linked both to the record and to its comment (`attachment.recordComment`). Deleting a comment keeps the file in the record's Files tab.
 
 The app role requests the `UPLOAD_FILE` and `DOWNLOAD_FILE` permissions to handle images.
+
+## Translations
+
+Every string lives in [`translations/translations.mjs`](translations/translations.mjs). After editing it, run:
+
+```bash
+twenty app translations extract   # only if entity labels changed
+yarn translations                 # writes locales/*.json and src/utils/strings.generated.ts
+```
+
+The script refuses to write anything if a language misses a key or a placeholder. Translations other than English and Russian were written without a native-speaker review; corrections are welcome as pull requests.
 
 ## Requirements
 

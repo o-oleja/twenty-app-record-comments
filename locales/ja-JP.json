@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "名前"
+  },
+  "fieldMetadata.label": {
+    "Comments": "コメント",
+    "Company": "会社",
+    "Images": "画像",
+    "Name": "名前",
+    "Opportunity": "商談",
+    "Person": "人物",
+    "Record comment": "レコードのコメント",
+    "Text": "テキスト"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "ワークスペースのメンバーがレコードに残したコメント"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "レコードのコメント"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "レコードのコメント"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "コメント"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "コメント"
+  }
+}

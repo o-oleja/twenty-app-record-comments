@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Název"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Komentáře",
+    "Company": "Společnost",
+    "Images": "Obrázky",
+    "Name": "Název",
+    "Opportunity": "Příležitost",
+    "Person": "Osoba",
+    "Record comment": "Komentář záznamu",
+    "Text": "Text"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Komentář, který k záznamu zanechal člen pracovního prostoru"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Komentáře záznamů"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Komentář záznamu"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Komentáře"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Komentáře"
+  }
+}

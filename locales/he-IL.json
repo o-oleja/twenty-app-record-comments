@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "שם"
+  },
+  "fieldMetadata.label": {
+    "Comments": "תגובות",
+    "Company": "חברה",
+    "Images": "תמונות",
+    "Name": "שם",
+    "Opportunity": "הזדמנות",
+    "Person": "איש קשר",
+    "Record comment": "תגובה לרשומה",
+    "Text": "טקסט"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "תגובה שהשאיר חבר בסביבת העבודה על רשומה"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "תגובות לרשומות"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "תגובה לרשומה"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "תגובות"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "תגובות"
+  }
+}

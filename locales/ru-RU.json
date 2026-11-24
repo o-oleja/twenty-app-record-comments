@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Название"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Комментарии",
+    "Company": "Компания",
+    "Images": "Картинки",
+    "Name": "Название",
+    "Opportunity": "Возможность",
+    "Person": "Человек",
+    "Record comment": "Комментарий к записи",
+    "Text": "Текст"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Комментарий участника рабочего пространства к записи"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Комментарии к записям"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Комментарий к записи"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Комментарии"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Комментарии"
+  }
+}

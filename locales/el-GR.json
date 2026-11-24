@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Όνομα"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Σχόλια",
+    "Company": "Εταιρεία",
+    "Images": "Εικόνες",
+    "Name": "Όνομα",
+    "Opportunity": "Ευκαιρία",
+    "Person": "Άτομο",
+    "Record comment": "Σχόλιο εγγραφής",
+    "Text": "Κείμενο"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Ένα σχόλιο που άφησε μέλος του χώρου εργασίας σε μια εγγραφή"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Σχόλια εγγραφών"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Σχόλιο εγγραφής"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Σχόλια"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Σχόλια"
+  }
+}

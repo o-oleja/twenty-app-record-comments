@@ -1,0 +1,30 @@
+{
+  "fieldMetadata.description": {
+    "Name": "Nimi"
+  },
+  "fieldMetadata.label": {
+    "Comments": "Kommentit",
+    "Company": "Yritys",
+    "Images": "Kuvat",
+    "Name": "Nimi",
+    "Opportunity": "Myyntimahdollisuus",
+    "Person": "Henkilö",
+    "Record comment": "Tietueen kommentti",
+    "Text": "Teksti"
+  },
+  "objectMetadata.description": {
+    "A comment left by a workspace member on a record": "Työtilan jäsenen tietueeseen jättämä kommentti"
+  },
+  "objectMetadata.labelPlural": {
+    "Record comments": "Tietueiden kommentit"
+  },
+  "objectMetadata.labelSingular": {
+    "Record comment": "Tietueen kommentti"
+  },
+  "pageLayoutTab.title": {
+    "Comments": "Kommentit"
+  },
+  "pageLayoutWidget.title": {
+    "Comments": "Kommentit"
+  }
+}
