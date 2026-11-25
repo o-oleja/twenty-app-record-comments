@@ -1,6 +1,6 @@
 {
   "name": "twenty-app-record-comments",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Twenty CRM app: a comment feed with image attachments on Company, Person and Opportunity records",
   "keywords": [
     "twenty-app",

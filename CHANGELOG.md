@@ -2,9 +2,9 @@
 
 All notable changes to this application are documented in this file.
 
-## 0.1.1
+## 0.1.2
 
-- First release published from GitHub Actions with npm provenance.
+- First release published from GitHub Actions with npm provenance (0.1.1 was tagged but never reached npm).
 
 ## 0.1.0
 
