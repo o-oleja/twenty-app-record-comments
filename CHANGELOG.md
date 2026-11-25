@@ -2,6 +2,10 @@
 
 All notable changes to this application are documented in this file.
 
+## 0.1.1
+
+- First release published from GitHub Actions with npm provenance.
+
 ## 0.1.0
 
 - "Comments" tab on Company, Person and Opportunity record pages.
